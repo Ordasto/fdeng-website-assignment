@@ -1,0 +1,19 @@
+﻿@media (min-width: 992px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+    .mobile-only {
+        display: none;
+    }
+}
+
+@media(max-width: 992px) {
+    .desktop-only {
+        display: none;
+    }
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}

@@ -1,7 +1,110 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+	
 nav{
-	position:flex;
+	position:relative;
+	text-align:center;
+	width:100%;
+}
+
+li{
+	text-decoration:none;
+	display:table-cell;
+	padding:10px;
+	border:1px,solid,white;
+	color:white;
+	text-align:center;
 }
 
 body{
-	background-color:red;
+	background-image:url("paper.jpeg");
 }
+
+footer{
+	background-color:#C06000;
+	padding:80px;
+	width:fill;
+	border:2px,solid,black;
+	text-align:center;
+}
+
+.logo{
+	background-color:black;
+	width:20%;
+}
+
+.men{
+	background-color:brown;
+	width:10%;
+}
+
+.women{
+	background-color:brown;
+	width:10%;
+}
+
+.search{
+	background-color:white;
+	color:black;
+	width:20%;
+}
+
+.contact{
+	background-color:brown;
+	width:10%;
+}
+
+.basket{
+	background-color:brown;
+	width:10%;
+}
+
+.login{
+	background-color:brown;
+	width:20%;
+}
+
+/* Men Clothing era choice */
+
+.MenClothingHeading{
+	text-align:center;
+	padding:20px;
+	background-color:#2ABA9E;
+	margin:40px 80px;
+	border:2px,solid,black;
+}
+
+.seven{
+	text-align:center;
+	padding:20px;
+	background-color:#B11016;
+	margin:50px 20px;
+	border:2px,solid,black;
+	height:200px;
+}
+
+.eight{
+	text-align:center;
+	padding:20px;
+	background-color:#F37022;
+	margin:50px 20px;
+	border:2px,solid,black;
+	height:200px;
+}
+
+.nine{
+	text-align:center;
+	padding:20px;
+	background-color:#2ABA9E;
+	margin:50px 20px;
+	border:2px,solid,black;
+	height:200px;
+}
+
+.catalogue{
+	position:bottom;
+}
+
+/* End of men clothing era choice */

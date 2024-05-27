@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,17 @@
     <!-- Bootstrap CSS link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
     <link href="../../css/navbar.css" rel="stylesheet">
     <style>
-        /* DEBUG OUTLINE */
-        /* * {
-            outline-color: black;
-            outline: auto;
-        } */
     </style>
 </head>
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!-- <nav class="navbar navbar-expand-lg"> -->
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Cornish Retro Revival</a>
+            <a class="navbar-brand" href="../../index.html">Cornish Retro Revival</a>
 
             <!-- This searchbar only appears on small screens -->
             <div class="mobile-only mx-auto w-50">
@@ -66,59 +65,126 @@
 
                 <!-- Right side elements -->
                 <div class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <a class="nav-link" href="#">Contact Us</a>
+                    <a class="nav-link" href="../contact_us.html">Contact Us</a>
                     <!-- active class and aria-current="page" are for showing the active page -->
                     <a class="nav-link active" aria-current="page" href="#">Basket</a>
-                    <a class="nav-link" href="#">Sign In</a>
+                    <a class="nav-link" href="../login/login.html">Sign In</a>
                 </div>
             </div>
         </div>
     </nav>
 
     <!-- Items + summary -->
-    <div class="container pt-4"> 
+    <div class="container pt-4">
         <div class="row">
             <!-- Items -->
-            <div class="col-7">
+            <div class="col">
                 <h3 class="text-center">Items</h3>
-                <div class="container">
-                    <div class="row">
-                        Item 1
+                <div class="container" id="items-container">
+                    <div class="item">
+                        <hr class="divider">
+                        <div class="row">
+                            <!-- left side image -->
+                            <div class="col-5">
+                                <img class="img-fluid" src="https://wiki.dave.eu/images/4/47/Placeholder.png">
+                            </div>
+                            <!-- right side item details -->
+                            <div class="col-7">
+                                <p class="item-name">Item Name</p>
+                                <p class="item-size">Size: L</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Price</p>
+                                        <p class="item-price">£25.00</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Quantity</p>
+                                        <input class="input-group item-quantity" type="number" value="1"></input>
+                                        <!-- <p id="item-quantity">1</p> -->
+                                    </div>
+                                    <div class="col">
+                                        <p>Total</p>
+                                        <p class="item-total">£25.00</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-light remove-item-btn">
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        Item 1
+                    <div class="item">
+                        <hr class="divider">
+                        <div class="row">
+                            <!-- left side image -->
+                            <div class="col-5">
+                                <img class="img-fluid" src="https://wiki.dave.eu/images/4/47/Placeholder.png">
+                            </div>
+                            <!-- right side item details -->
+                            <div class="col-7">
+                                <p class="item-name">Item Name</p>
+                                <p class="item-size">Size: L</p>
+                                <div class="row">
+                                    <div class="col">
+                                        <p>Price</p>
+                                        <p class="item-price">£25.00</p>
+                                    </div>
+                                    <div class="col">
+                                        <p>Quantity</p>
+                                        <input class="input-group item-quantity" type="number" value="1"></input>
+                                        <!-- <p id="item-quantity">1</p> -->
+                                    </div>
+                                    <div class="col">
+                                        <p>Total</p>
+                                        <p class="item-total">£25.00</p>
+                                    </div>
+                                </div>
+                                <button class="btn btn-light remove-item-btn">
+                                    Remove
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                    <div class="row">
-                        Item 1
-                    </div>
+                    <!-- <hr class="divider"> -->
+                    <!-- <div class="row text-end">
+                        <p class="col-11">Item(s) Total:</p>
+                        <p class="col-1">£73.00</p>
+                    </div> -->
                 </div>
             </div>
             <!-- Summary -->
-            <div class="col" >
+            <div class="col-5" id="summary">
                 <h3 class="text-center">Summary</h3>
                 <div class="container">
+                    <hr class="divider">
                     <div class="row container">
                         <p class="col">Item(s) Total</p>
-                        <p class="col">£ 73.00</p>
+                        <p class="col-4" id="items-total-cost">£ 55.00</p>
                     </div>
                     <div class="row container">
                         <p class="col">Delivery</p>
-                        <p class="col">£ 4.00</p>
+                        <p class="col-4" id="delivery-cost">£ 4.00</p>
                     </div>
-                    <br>
+                    <hr class="divider">
                     <div class="row container">
                         <p class="col">Total</p>
-                        <p class="col">£ 77.00</p>
+                        <p class="col-4" id="total-cost">£ 59.00</p>
+                    </div>
+                    <div class="row justify-content-center mx-5">
+                        <a class="btn btn-light" href="checkout.html">Checkout</a>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Items -->
     </div>
 
     <!-- Bootstrap JS Script -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="../../scripts/basket.js"></script>
 </body>
+
 </html>

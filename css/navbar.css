@@ -1,19 +1,24 @@
-﻿@media (min-width: 992px) {
-    .dropdown:hover .dropdown-menu {
-        display: block;
-    }
-
-    .mobile-only {
-        display: none;
-    }
-}
-
-@media(max-width: 992px) {
-    .desktop-only {
-        display: none;
-    }
-}
+﻿/* import colours */
+@import url(colour-palette.css); 
 
 .dropdown:hover .dropdown-menu {
     display: block;
+}
+
+.navbar{
+    background: #f7eed3;
+    /* background: #f1ebd7;  */
+    /* background: #FBD0A6; */
+
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-link:hover {
+    color: var(--crr-cyan);
+    /* color: #2ABA9E; */
+    /* font-weight: bolder; */
+
 }

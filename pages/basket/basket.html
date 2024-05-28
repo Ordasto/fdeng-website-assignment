@@ -20,8 +20,8 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="../../index.html">Cornish Retro Revival</a>
 
-            <!-- This searchbar only appears on small screens -->
-            <div class="mobile-only mx-auto w-50">
+            <!-- This searchbar only appears on small screens but not on extra small screens -->
+            <div class="d-none d-sm-block dm-md-block d-lg-none mx-auto w-50">
                 <form class="d-flex">
                     <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success" type="submit">Search</button>
@@ -56,7 +56,7 @@
                 </div>
 
                 <!-- search bar in center on large screens -->
-                <div class="desktop-only mx-auto w-50">
+                <div class="d-none d-lg-block mx-auto w-50">
                     <form class="d-flex">
                         <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>

@@ -49,7 +49,6 @@ function remove_item(event) {
     }
     if (items_container.getElementsByClassName("item").length == 0) {
         items_container.innerHTML = `
-        <hr class="divider">
         <p class="text-center">Your basket is empty</p>
         `
     }

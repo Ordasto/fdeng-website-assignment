@@ -1,7 +1,7 @@
 ﻿/* import colours */
 @import url(colour-palette.css); 
 
-.dropdown:hover .dropdown-menu {
+.nav-dropdown:hover .dropdown-menu {
     display: block;
 }
 
@@ -24,7 +24,7 @@
 
 .nav-link{
     color: black;
-    font-weight: 500;
+    /* font-weight: 500; */
 }
 
 .nav-link:hover {
@@ -47,6 +47,7 @@
     border-color: var(--crr-blue);
     color: var(--crr-blue);
 }
+
 .search-button:hover{
     background-color:var(--crr-blue);
     border-color: var(--crr-blue);

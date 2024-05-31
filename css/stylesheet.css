@@ -28,43 +28,9 @@ footer{
 	width:fill;
 	border:2px,solid,black;
 	text-align:center;
+	position:fixed;
 }
 
-.logo{
-	background-color:black;
-	width:20%;
-}
-
-.men{
-	background-color:brown;
-	width:10%;
-}
-
-.women{
-	background-color:brown;
-	width:10%;
-}
-
-.search{
-	background-color:white;
-	color:black;
-	width:20%;
-}
-
-.contact{
-	background-color:brown;
-	width:10%;
-}
-
-.basket{
-	background-color:brown;
-	width:10%;
-}
-
-.login{
-	background-color:brown;
-	width:20%;
-}
 
 /* Men Clothing era choice */
 
@@ -82,7 +48,7 @@ footer{
 	background-color:#B11016;
 	margin:50px 20px;
 	border:2px,solid,black;
-	height:200px;
+	height:40vh;
 }
 
 .eight{
@@ -91,7 +57,7 @@ footer{
 	background-color:#F37022;
 	margin:50px 20px;
 	border:2px,solid,black;
-	height:200px;
+	height:40vh;
 }
 
 .nine{
@@ -100,11 +66,18 @@ footer{
 	background-color:#2ABA9E;
 	margin:50px 20px;
 	border:2px,solid,black;
-	height:200px;
+	height:40vh;
 }
 
 .catalogue{
 	position:bottom;
+}
+
+.OutfitHeading{
+	background-color:white;
+	border:2px,solid,black;
+	margin:10px;
+	padding:10px;
 }
 
 /* End of men clothing era choice */

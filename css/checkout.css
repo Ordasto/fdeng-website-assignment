@@ -1,0 +1,77 @@
+.grid-container 
+    div {
+		text-align: left;
+		align-self: center;
+		padding: 24px; 
+		border: 1px solid black;
+		margin-top: 0;
+      
+  }
+  
+  
+  .Payment-Info { grid-area: Payment-Info;
+
+    grid-area: Payment-Info;
+    
+}
+  
+  .Delivery-Address { 
+   
+  grid-area: Shipping-Info; 
+  
+  
+
+}
+  
+  .Checkout { grid-area: Checkout; 
+
+    grid-area: Checkout;
+    
+  
+
+}
+
+.Shipment-Information { 
+	
+	grid-area: Shipment-Information;
+
+   
+    
+}
+
+.Continue-Shopping{ 
+	
+	grid-area: Continue-Shopping; 
+    
+
+}
+
+
+
+  .Header { 
+	
+	grid-area: Header; }
+
+
+	.Delivery-Address h2,
+	.Payment-Info h2,
+	.Checkout h2,
+	.Shipment-Information h2,
+	.Continue-Shopping h2 {
+		margin-bottom: 20px; 
+	}
+
+
+
+body {
+    background-color: #f7f7f7; 
+}
+
+.container {
+    background-color: #fff; 
+}
+
+nav {
+    background-color: #fff; 
+}
+

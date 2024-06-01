@@ -1,0 +1,62 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+main{
+  background-color:#F37022 ;
+}
+.container {
+  background-color: #FBD0A6;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #333;
+  padding: 1rem 0;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  color: black;
+  
+}
+
+main .intro {
+  text-align: center;
+  margin: 2rem 0;
+}
+.carousel-inner{
+  width: 400px;
+  height: 540px;
+  margin: 20px;
+  overflow: hidden;
+}
+
+.carousel-item {
+  width: 400px;
+  height: 540px;
+  margin: 10px;
+  overflow: hidden;
+}
+main .card{
+  background-color: #007096;
+}
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+footer p {
+  margin: 0;
+  color: black;
+}

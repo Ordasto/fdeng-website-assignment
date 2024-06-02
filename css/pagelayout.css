@@ -62,7 +62,3 @@
   .Back-button { grid-area: 5 / 1 / 6 / 3; }
   
   .Next-button { grid-area: 5 / 4 / 6 / 6; }
-
-  div {
-    border: 1px solid black;
-  }

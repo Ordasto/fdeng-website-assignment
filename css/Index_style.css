@@ -12,27 +12,27 @@ body {
 .container_greeting {
   background-color: #FBD0A6;
   width: 80%;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 .container_carousel {
   background-color: #2ABA9E;
   width: 80%;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 .container_sales {
   background-color: #B11016;
   width: 80%;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 .container_categories {
   background-color: #FBD0A6;
   width: 80%;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 .container_footer {
   background-color: #D9D9D9;
   width: 80%;
-  margin: 0 auto;
+  margin: 1 auto;
 }
 
 header {

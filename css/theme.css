@@ -1,0 +1,36 @@
+﻿@import url(colour-palette.css);
+
+.crr-btn-blue{
+    background-color: var(--crr-blue);
+    color: white;
+}
+
+.crr-btn-blue:hover{
+    background-color: var(--crr-blue);
+    color: white;
+}
+
+.crr-btn-blue:hover:active{
+    background-color: var(--crr-blue);
+    color: white;
+
+}
+
+/* Darkens button on hover */
+.hover-darken:hover {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
+
+.crr-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.crr-background{
+    background-color: #f8f6f6;
+    background-image: url(../BackgroundPaper.jpeg);
+    /* background-image: url(https://naldzgraphics.net/wp-content/uploads/2014/07/1-certificate-paper-texture.jpg); */
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    /* background-color: #F5E6CC; */
+    /* background-blend-mode: lighten; */
+    /* background: #E3D5B1; */
+}   

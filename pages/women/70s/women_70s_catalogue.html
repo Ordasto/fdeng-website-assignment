@@ -1,1 +1,224 @@
-﻿
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1990s Clothing for Men - Cornish Retro Revival</title>
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link href="../../../css/navbar.css" rel="stylesheet">
+    <link href="70swomenscatalogue.css" rel="stylesheet">
+
+</head>
+
+<body class="background">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html">Cornish Retro Revival</a>
+
+                <!-- This searchbar only appears on small screens but not on extra small screens -->
+                <div class="d-none d-sm-block d-md-block d-lg-none mx-auto w-50">
+                    <form class="d-flex">
+                        <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+
+                <!-- Navbar toggle for small screen -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <!-- left side elements -->
+                    <div class="navbar-nav me-auto">
+                        <div class="nav-item dropdown nav-dropdown" href="#">
+                            <a class="nav-link" href="#">Men</a>
+                            <!-- Removes border from dropdown-menu and adds it back to top and bottom -->
+                            <ul class="dropdown-menu border-0 border-bottom border-top">
+                                <li><a class="dropdown-item nav-link" href="../../men/70s/male_70s_catalogue.html">70s</a></li>
+                                <li><a class="dropdown-item nav-link" href="../../men/80s/male_80s_catalogue.html">80s</a></li>
+                                <li><a class="dropdown-item nav-link" href="../../men/90s/male_90s_catalogue.html">90s</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-item dropdown nav-dropdown" href="#">
+                            <a class="nav-link" href="#">Women</a>
+                            <ul class="dropdown-menu border-0 border-bottom border-top">
+                                <li><a class="dropdown-item nav-link" href="../../women/70s/women_70s_catalogue.html">70s</a></li>
+                                <li><a class="dropdown-item nav-link" href="../../women/80s/women_80s_catalogue.html">80s</a></li>
+                                <li><a class="dropdown-item nav-link" href="../../women/90s/women_90s_catalogue.html">90s</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- search bar in center on large screens -->
+                    <div class="d-none d-lg-block mx-auto w-50">
+                        <form class="d-flex">
+                            <input class="form-control me-2 w-100" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-primary search-button" type="submit">Search</button>
+                        </form>
+                    </div>
+
+                    <!-- Right side elements -->
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="nav-link" href="../../contact_us.html">Contact Us</a>
+                        <a class="nav-link" href="../../basket/basket.html">Basket</a>
+                        <a class="nav-link" href="../../login/login.html">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 class="text-center p-2 mt-3">Womens 70s</h1>
+        <p class="text-center mb-4">Info</p>
+        <div class="col justify-content-center">
+            <!-- Filters -->
+            <div class="d-flex justify-content-between w-100 mb-5 pe-4">
+                <!-- left -->
+                <div class="d-block d-xl-flex gap-2 mb-2">
+                    <select class="form-select form-filter" aria-label="Price Range Select">
+                        <option selected>Select a price range</option>
+                        <option value="upto_20">Up to £20</option>
+                        <option value="20_to_30">£20 to £40</option>
+                        <option value="40_to_60">£40 to £60</option>
+                        <option value="60_to_90">£60 to £90</option>
+                        <option value="90_and_above">£90 and above</option>
+                    </select>
+                    <select class="form-select form-filter" aria-label="Size Select">
+                        <option selected>Select a size</option>
+                        <option value="extra_small">XS</option>
+                        <option value="small">S</option>
+                        <option value="medium">M</option>
+                        <option value="large">L</option>
+                        <option value="extra_large">XL</option>
+                    </select>
+                    <select class="form-select form-filter" aria-label="Size Select">
+                        <option selected>Select a colour</option>
+                        <option value="red">Red</option>
+                        <option value="orange">Orange</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="green">Green</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="pink">Pink</option>
+                        <option value="grey">Grey</option>
+                        <option value="white">White</option>
+                        <option value="black">Black</option>
+                        <option value="brown">Brown</option>
+                        <option value="multiple">Multiple</option>
+                    </select>
+                    <select class="form-select form-filter" aria-label="Category Select">
+                        <option selected>Select a category</option>
+                        <option value="shirts">Shirts</option>
+                        <option value="jackets">Jackets</option>
+                        <option value="coats">Coats</option>
+                        <option value="jeans">Jeans</option>
+                        <option value="trousers">Trousers</option>
+                    </select>
+                </div>
+
+                <!-- Right -->
+                <div class="mb-2">
+                    <select class="form-select form-filter" aria-label="Price Range Select">
+                        <option selected>Sort By:</option>
+                        <option value="1">Price (highest to lowest)</option>
+                        <option value="1">Price (lowest to highest)</option>
+                        <option value="1">Size (biggest to smallest)</option>
+                        <option value="2">Size (smallest to biggest)</option>
+                        <option value="3">Newest to oldest</option>
+                        <option value="3">Oldest to newest</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Items -->
+            <div class="container row row-cols-lg-4 row-cols-2 d-flex">
+
+                <div class="my-2">
+                    <img src="images/vintagedress1.jpeg" class="card-img-top fixed-size" alt="...">
+                    <div class="card-body card">
+                        <h5 class="card-title text-center">Item Name</h5>
+                        <h5 class="card-title text-center">Price</h5>
+                        <a href="item_1.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="my-2">
+                    <img src="images/vintagedress2.jpeg" class="card-img-top fixed-size" alt="...">
+                    <div class="card-body card">
+                        <h5 class="card-title text-center">Item Name</h5>
+                        <h5 class="card-title text-center">Price</h5>
+                        <a href="item_2.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="my-2">
+                    <img src="images/vintagedress3.jpeg" class = "card-img-top fixed-size" alt="...">
+                    <div class="card-body card">
+                        <h5 class="card-title text-center">Item Name</h5>
+                        <h5 class="card-title text-center">Price</h5>
+                        <a href="item_3.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="my-2">
+                    <img src="images/vintagedress4.jpeg" class="card-img-top fixed-size" alt="...">
+                    <div class="card-body card">
+                        <h5 class="card-title text-center">Item Name</h5>
+                        <h5 class="card-title text-center">Price</h5>
+                        <a href="item_4.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="my-2">
+                    <img src="images/vintagedress5.jpeg" class=" card-img-top fixed-size" alt="...">
+                    <div class="card-body card">
+                        <h5 class="card-title text-center">Item Name</h5>
+                        <h5 class="card-title text-center">Price</h5>
+                        <a href="item_5.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+                <div class="my-2">
+                    <img src="images/vintagedress6.jpeg" class="card-img-top fixed-size" alt="...">
+                    <div class="card-body card">
+                        <h5 class="card-title text-center">Item Name</h5>
+                        <h5 class="card-title text-center">Price</h5>
+                        <a href="item_6.html" class="btn btn-primary">View</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pages Controls -->
+            <nav aria-label="Page Controls">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item">
+                        <a class="page-link disabled" href="#" aria-label="Previous Page">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#" aria-label="Next Page">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>﻿

@@ -99,3 +99,18 @@ body{
 }
 
 /* End of men clothing era choice */
+
+/* Start of Login Page styles */
+
+.create{
+	margin:5px;
+}
+
+.password{
+	margin:5px;
+	position:inline-block;
+}
+
+.button-arrangement{
+	text-align:center;
+}

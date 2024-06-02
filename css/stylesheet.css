@@ -7,13 +7,15 @@ body{
 	background-image:url("../BackgroundPaper.jpeg");
 }
 
-footer{
+.footer{
 	background-color:#C06000;
 	padding:80px;
-	width:fill;
+	width:100%;
+	height:400px;
 	border:2px,solid,black;
 	text-align:center;
 	position:fixed;
+	margin:0px;
 }
 
 
@@ -29,6 +31,7 @@ footer{
 	padding:20px;
 	background-color:#2ABA9E;
 	border:2px,solid,black;
+	margin-top:20px;
 }
 
 .seven{
@@ -37,7 +40,7 @@ footer{
 	text-align:center;
 	margin:5px;
 	max-width:700px;
-	max-height:700px;
+	max-height:800px;
 	min-height:300px;
 
 }
@@ -48,7 +51,7 @@ footer{
 	text-align:center;
 	margin:5px;
 	max-width:700px;
-	max-height:700px;
+	max-height:800px;
 	min-height:300px;
 }
 
@@ -73,6 +76,7 @@ footer{
 	margin:10px;
 	padding:10px;
 	text-align:center;
+	display:block;
 }
 
 .catalogue{
@@ -84,6 +88,14 @@ footer{
 	right:0;
 	margin:auto;
 	background-color:#D9D9D9;
+	display:block;
+}
+
+.banner{
+	position:center;
+	display:block;
+	width:100%;
+	padding-bottom:50px;
 }
 
 /* End of men clothing era choice */

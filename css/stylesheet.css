@@ -114,3 +114,78 @@ body{
 .button-arrangement{
 	text-align:center;
 }
+
+/* End of Login Page Styles */
+
+/* Start of 80s catalogue styles */
+
+.Clothing{
+	text-align:center;
+	position:center;
+}
+
+.product1, .product4{
+	background:#F37022;
+	display:inline-block;
+	margin:5px;
+	border-radius:5px;
+	border:2px solid black;
+}
+
+.product2, .product5{
+	background:#2ABA9E;
+	display:inline-block;
+	margin:5px;
+	border-radius:5px;
+	border:2px solid black;
+}
+
+.product3, .product6{
+	background:#B11016;
+	display:inline-block;
+	margin:5px;
+	border-radius:5px;
+	border:2px solid black;
+}
+
+.table{
+	text-align:center;
+}
+
+.viewItem{
+	width:100%;
+	height:50px;
+	background-color:red;
+}
+
+.name{
+	text-align:center;
+	margin:5px;
+	border-radius:10px;
+}
+
+.history{
+	text-align:center;
+	background-color:#ffffff;
+	margin:5px;
+	border-radius:5px;
+}
+
+.catalogue-title{
+	text-align:center;
+	background-color:#ffffff;
+	border-radius:5px;
+	padding:10px;
+}
+
+.mainpage{
+	background-color:#FF816E;
+	padding:10px;
+	border:2px solid black;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.cards{
+	padding:10px;
+}

@@ -10,78 +10,77 @@
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
     <link href="../../css/navbar.css" rel="stylesheet">
-    <style>
-    </style>
+    <link href="../../css/theme.css" rel="stylesheet">
+
 </head>
 
-<body class="background">
+<body class="crr-background crr-font">
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light border-bottom">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../../index.html">Cornish Retro Revival</a>
 
-    <nav class="navbar navbar-expand-lg navbar-light border-bottom">
-        <!-- <nav class="navbar navbar-expand-lg"> -->
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../../index.html">Cornish Retro Revival</a>
-
-            <!-- This searchbar only appears on small screens but not on extra small screens -->
-            <div class="d-none d-sm-block d-md-block d-lg-none mx-auto w-50">
-                <form class="d-flex">
-                    <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-
-            <!-- Navbar toggle for small screen -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
-                aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarContent">
-                <!-- left side elements -->
-                <div class="navbar-nav me-auto">
-                    <div class="nav-item dropdown nav-dropdown" href="#">
-                        <a class="nav-link" href="#">Men</a>
-                        <!-- Removes border from dropdown-menu and adds it back to top and bottom -->
-                        <ul class="dropdown-menu border-0 border-bottom border-top">
-                            <li><a class="dropdown-item nav-link" href="#">70s</a></li>
-                            <li><a class="dropdown-item nav-link" href="#">80s</a></li>
-                            <li><a class="dropdown-item nav-link" href="#">90s</a></li>
-                        </ul>
-                    </div>
-                    <div class="nav-item dropdown nav-dropdown" href="#">
-                        <a class="nav-link" href="#">Women</a>
-                        <ul class="dropdown-menu border-0 border-bottom border-top">
-                            <li><a class="dropdown-item nav-link" href="#">70s</a></li>
-                            <li><a class="dropdown-item nav-link" href="#">80s</a></li>
-                            <li><a class="dropdown-item nav-link" href="#">90s</a></li>
-                        </ul>
-                    </div>
-                </div>
-
-                <!-- search bar in center on large screens -->
-                <div class="d-none d-lg-block mx-auto w-50">
+                <!-- This searchbar only appears on small screens but not on extra small screens -->
+                <div class="d-none d-sm-block d-md-block d-lg-none mx-auto w-50">
                     <form class="d-flex">
                         <input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-primary search-button" type="submit">Search</button>
+                        <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
 
-                <!-- Right side elements -->
-                <div class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <a class="nav-link" href="../contact_us.html">Contact Us</a>
-                    <!-- active class and aria-current="page" are for showing the active page -->
-                    <a class="nav-link" aria-current="page" href="#">Basket</a>
-                    <a class="nav-link" href="../login/login.html">Sign In</a>
+                <!-- Navbar toggle for small screen -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarContent">
+                    <!-- left side elements -->
+                    <div class="navbar-nav me-auto">
+                        <div class="nav-item dropdown nav-dropdown" href="#">
+                            <a class="nav-link" href="#">Men</a>
+                            <!-- Removes border from dropdown-menu and adds it back to top and bottom -->
+                            <ul class="dropdown-menu border-0 border-bottom border-top">
+                                <li><a class="dropdown-item nav-link" href="#">70s</a></li>
+                                <li><a class="dropdown-item nav-link" href="#">80s</a></li>
+                                <li><a class="dropdown-item nav-link" href="#">90s</a></li>
+                            </ul>
+                        </div>
+                        <div class="nav-item dropdown nav-dropdown" href="#">
+                            <a class="nav-link" href="#">Women</a>
+                            <ul class="dropdown-menu border-0 border-bottom border-top">
+                                <li><a class="dropdown-item nav-link" href="#">70s</a></li>
+                                <li><a class="dropdown-item nav-link" href="#">80s</a></li>
+                                <li><a class="dropdown-item nav-link" href="#">90s</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- search bar in center on large screens -->
+                    <div class="d-none d-lg-block mx-auto w-50">
+                        <form class="d-flex">
+                            <input class="form-control me-2 w-100" type="search" placeholder="Search"
+                                aria-label="Search">
+                            <button class="btn btn-outline-primary search-button" type="submit">Search</button>
+                        </form>
+                    </div>
+
+                    <!-- Right side elements -->
+                    <div class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <a class="nav-link" href="../contact_us.html">Contact Us</a>
+                        <!-- active class and aria-current="page" are for showing the active page -->
+                        <a class="nav-link" aria-current="page" href="#">Basket</a>
+                        <a class="nav-link" href="../login/login.html">Sign In</a>
+                    </div>
                 </div>
             </div>
-        </div>
-    </nav>
+        </nav>
     </header>
     <!-- Items + summary -->
-    <div class="container p-4 mt-4 border-2" >
+    <div class="container p-4 mt-4 border-2 bg-body">
         <div class="row">
             <!-- Items -->
-            <div class="col-lg pb-5">
+            <div class="col-lg pb-5 pb-lg-0">
                 <h3 class="text-center">Items</h3>
                 <hr class="divider">
 
@@ -89,7 +88,8 @@
                     <div class="row item border-bottom pb-3 mb-3">
                         <!-- left side image -->
                         <div class="col-5">
-                            <img class="img-fluid" src="https://wiki.dave.eu/images/4/47/Placeholder.png" alt="placeholder image">
+                            <img class="img-fluid" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
+                                alt="placeholder image">
                         </div>
                         <!-- right side item details -->
                         <div class="col-7">
@@ -102,8 +102,16 @@
                                 </div>
                                 <div class="col">
                                     <p>Quantity</p>
-                                    <input class="input-group item-quantity" type="number" value="1"></input>
-                                    <!-- <p id="item-quantity">1</p> -->
+                                    <select class="form-select form-filter item-quantity" aria-label="Quantity Select">
+                                        <option class="option" selected value="1">1</option>
+                                        <option class="option" value="2">2</option>
+                                        <option class="option" value="3">3</option>
+                                        <option class="option" value="4">4</option>
+                                        <option class="option" value="5">5</option>
+                                        <option class="option" value="6">6</option>
+                                        <option class="option" value="7">7</option>
+                                    </select>
+
                                 </div>
                                 <div class="col">
                                     <p>Total</p>
@@ -118,7 +126,8 @@
                     <div class="row item border-bottom pb-3">
                         <!-- left side image -->
                         <div class="col-5">
-                            <img class="img-fluid" src="https://wiki.dave.eu/images/4/47/Placeholder.png" alt="placeholder image">
+                            <img class="img-fluid" src="https://wiki.dave.eu/images/4/47/Placeholder.png"
+                                alt="placeholder image">
                         </div>
                         <!-- right side item details -->
                         <div class="col-7">
@@ -131,8 +140,15 @@
                                 </div>
                                 <div class="col">
                                     <p>Quantity</p>
-                                    <input class="input-group item-quantity" type="number" value="1"></input>
-                                    <!-- <p id="item-quantity">1</p> -->
+                                    <select class="form-select form-filter item-quantity" aria-label="Quantity Select">
+                                        <option class="option" selected value="1">1</option>
+                                        <option class="option" value="2">2</option>
+                                        <option class="option" value="3">3</option>
+                                        <option class="option" value="4">4</option>
+                                        <option class="option" value="5">5</option>
+                                        <option class="option" value="6">6</option>
+                                        <option class="option" value="7">7</option>
+                                    </select>
                                 </div>
                                 <div class="col">
                                     <p>Total</p>

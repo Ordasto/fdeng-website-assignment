@@ -18,37 +18,26 @@
 }
 
 .dropdown-menu{
-    /* background-color: #D2A6A1; */
     background-color: white;
 }
 
 .nav-link{
     color: black;
-    /* font-weight: 500; */
 }
 
 .nav-link:hover {
-    /* color: var(--crr-cyan); */
     color: var(--crr-blue);
-    /* font-weight:200; */
 }
-
-/* Temp, move this into a stylesheet at some point */
-.background{
-    background-color: #f8f6f6;
-    /* background-image: url(https://naldzgraphics.net/wp-content/uploads/2014/07/1-certificate-paper-texture.jpg); */
-    /* background-color: rgba(255, 255, 255, 0.3); */
-    /* background-color: #F5E6CC; */
-    /* background-blend-mode: lighten; */
-    /* background: #E3D5B1; */
-}   
-
 .search-button{
     border-color: var(--crr-blue);
     color: var(--crr-blue);
 }
 
 .search-button:hover{
+    background-color:var(--crr-blue);
+    border-color: var(--crr-blue);
+}
+.search-button:hover:active{
     background-color:var(--crr-blue);
     border-color: var(--crr-blue);
 }

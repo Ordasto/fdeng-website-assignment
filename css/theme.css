@@ -29,8 +29,8 @@
     background-color: #f8f6f6;
     background-image: url(../BackgroundPaper.jpeg);
     /* background-image: url(https://naldzgraphics.net/wp-content/uploads/2014/07/1-certificate-paper-texture.jpg); */
+
+    /* These two lines lighten the image */
     /* background-color: rgba(255, 255, 255, 0.3); */
-    /* background-color: #F5E6CC; */
     /* background-blend-mode: lighten; */
-    /* background: #E3D5B1; */
 }   

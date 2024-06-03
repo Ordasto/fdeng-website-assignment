@@ -34,7 +34,11 @@ body {
 .container_footer {
   background-color: #D9D9D9;
 }
-
+.text-row1, .text-row2, .text-row3 {
+  padding: 1rem;
+  border: 1px;
+  border-style: solid;
+}
 header {
   background-color: #333;
   padding: 1rem 0;

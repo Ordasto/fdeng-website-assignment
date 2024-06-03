@@ -38,6 +38,25 @@ body {
   padding: 1rem;
   border: 1px;
   border-style: solid;
+  display: inline-block;
+}
+.text-row1{
+  background:#B11016;
+}
+.text-row2{
+  background:#F37022;
+}
+.text-row3{
+  background:#007096;
+}
+.seventy{
+  background: #b11016;
+}
+.eighty{
+  background:#F37022;
+}
+.ninety{
+  background:#007096;
 }
 header {
   background-color: #333;

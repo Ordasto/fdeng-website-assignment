@@ -34,12 +34,19 @@ Individual item pages are not here to avoid clutter
 
 ## Men
 [Men](https://ordasto.github.io/fdeng-website-assignment/pages/men/MenClothing.html)
+
 [Mens 70s Catalogue](https://ordasto.github.io/fdeng-website-assignment/pages/men/70s/male_70s_catalogue.html)
+
 [Mens 80s Catalogue](https://ordasto.github.io/fdeng-website-assignment/pages/men/80s/male_80s_catalogue.html)
+
 [Mens 90s Catalogue](https://ordasto.github.io/fdeng-website-assignment/pages/men/90s/male_90s_catalogue.html)
+
 
 ## Women
 [Women](https://ordasto.github.io/fdeng-website-assignment/pages/women/WomenClothing.html)
+
 [Womens 70s Catalogue](https://ordasto.github.io/fdeng-website-assignment/pages/women/70s/women_70s_catalogue.html)
+
 [Womens 80s Catalogue](https://ordasto.github.io/fdeng-website-assignment/pages/women/80s/women_80s_catalogue.html)
+
 [Womens 90s Catalogue](https://ordasto.github.io/fdeng-website-assignment/pages/women/90s/women_90s_catalogue.html)

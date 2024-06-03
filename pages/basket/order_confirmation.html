@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Confirmation</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <header class="bg-dark text-white p-3 text-center">
+    <h1>Cornish Retro Revival</h1>
+  </header>
+
+  <main class="container mt-4">
+    <h2 class="mb-4">Order Confirmation</h2>
+
+    <div class="card mb-4">
+      <div class="card-body">
+        <h5 class="card-title">Order Number: <span id="orderNumber">123456789</span></h5>
+        <p class="card-text">Delivery Date: <span id="deliveryDate">10 June 2024</span></p>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        Delivery Address
+      </div>
+      <div class="card-body">
+        <form>
+          <div class="form-group">
+            <label for="name">Full Name</label>
+            <input type="text" class="form-control" id="name" placeholder="John Smith">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" class="form-control" id="address" placeholder="123 High Street">
+          </div>
+          <div class="form-group">
+            <label for="city">Town/City</label>
+            <input type="text" class="form-control" id="city" placeholder="London">
+          </div>
+          <div class="form-group">
+            <label for="postcode">Postcode</label>
+            <input type="text" class="form-control" id="postcode" placeholder="W1A 1AA">
+          </div>
+          <div class="form-group">
+            <label for="country">Country</label>
+            <input type="text" class="form-control" id="country" placeholder="United Kingdom">
+          </div>
+          <button type="submit" class="btn btn-primary">Update Address</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="card mb-4">
+      <div class="card-header">
+        Order Items
+      </div>
+      <div class="card-body">
+        <div class="row mb-3">
+          <div class="col-md-8">
+            <h5>Item Name 1</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+          </div>
+          <div class="col-md-4 text-right">
+            <p>£50.00</p>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-8">
+            <h5>Item Name 2</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+          </div>
+          <div class="col-md-4 text-right">
+            <p>£30.00</p>
+          </div>
+        </div>
+        <div class="row mb-3">
+          <div class="col-md-8">
+            <h5>Item Name 3</h5>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum.</p>
+          </div>
+          <div class="col-md-4 text-right">
+            <p>£20.00</p>
+          </div>
+        </div>
+        <hr>
+        <div class="row">
+          <div class="col-md-8 text-right">
+            <h5>Delivery Cost</h5>
+          </div>
+          <div class="col-md-4 text-right">
+            <p>£10.00</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-8 text-right">
+            <h5>Total Cost</h5>
+          </div>
+          <div class="col-md-4 text-right">
+            <p>£110.00</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white p-3 text-center mt-4">
+    <p>&copy; 2024 Cornish Retro Revival Clothes Store. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

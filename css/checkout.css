@@ -72,6 +72,7 @@
 
 body {
     background-color: #f7f7f7; 
+    background-image: url(../BackgroundPaper.jpeg);
 }
 
 .container {

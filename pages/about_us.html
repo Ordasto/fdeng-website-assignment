@@ -1,13 +1,88 @@
 <head>
-	<link href="../../css/stylesheet.css" rel="stylesheet" type="text/css"/>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+   	<link rel="stylesheet" href="../../../css/pagelayout.css">
+    <link href="../../../css/navbar.css" rel="stylesheet">
+    <link href="../../../css/navbar.css" rel="stylesheet">
+    <link href="../../../css/stylesheet.css" rel="stylesheet" type="text/css"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
 	<title>About Us - Cornish Retro Revival</title>
 </head>
 
 
-<body>
+<body class="background">
+	<header>
+			<nav class="navbar navbar-expand-lg navbar-light border-bottom">
+					<!-- <nav class="navbar navbar-expand-lg"> -->
+				<div class="container-fluid">
+					<a class="navbar-brand" href="../../index.html">Cornish Retro Revival</a>
+
+						<!-- This searchbar only appears on small screens but not on extra small screens -->
+					<div class="d-none d-sm-block d-md-block d-lg-none mx-auto w-50">
+						<form class="d-flex">
+							<input class="form-control me-2 w-100" type="search" placeholder="Search" aria-label="Search">
+							<button class="btn btn-outline-success" type="submit">Search</button>
+						</form>
+					</div>
+
+						<!-- Navbar toggle for small screen -->
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+						aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarContent">
+							<!-- left side elements -->
+						<div class="navbar-nav me-auto">
+							<div class="nav-item dropdown nav-dropdown" href="#">
+								<a class="nav-link" href="MenClothing.html">Men</a>
+									<!-- Removes border from dropdown-menu and adds it back to top and bottom -->
+								<ul class="dropdown-menu border-0 border-bottom border-top">
+									<li><a class="dropdown-item nav-link" href="70s/male_70s_catalogue.html">70s</a></li>
+									<li><a class="dropdown-item nav-link" href="80s/male_80s_catalogue.html">80s</a></li>
+									<li><a class="dropdown-item nav-link" href="90s/male_90s_catalogue.html">90s</a></li>
+								</ul>
+							</div>
+							<div class="nav-item dropdown nav-dropdown" href="#">
+								<a class="nav-link" href="../women/WomenClothing.html">Women</a>
+								<ul class="dropdown-menu border-0 border-bottom border-top">
+									<li><a class="dropdown-item nav-link" href="../women/70s/women_70s_catalogue.html">70s</a></li>
+									<li><a class="dropdown-item nav-link" href="../women/80s/women_80s_catalogue.html">80s</a></li>
+									<li><a class="dropdown-item nav-link" href="../women/90s/women_90s_catalogue.html">90s</a></li>
+								</ul>
+							</div>
+						</div>
+
+							<!-- search bar in center on large screens -->
+						<div class="d-none d-lg-block mx-auto w-50">
+							<form class="d-flex">
+								<input class="form-control me-2 w-100" type="search" placeholder="Search"
+									aria-label="Search">
+								<button class="btn btn-outline-primary search-button" type="submit">Search</button>
+							</form>
+						</div>
+
+							<!-- Right side elements -->
+						<div class="navbar-nav ms-auto mb-2 mb-lg-0">
+							<a class="nav-link" href="../contact_us.html">Contact Us</a>
+								<!-- active class and aria-current="page" are for showing the active page -->
+							<a class="nav-link" href="../basket/basket.html">Basket</a>
+							<a class="nav-link" href="../login/login.html">Sign In</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+		</header>
 
 <h1>About Us</h1>
 
 <p>At Cornish Retro Revival, we believe that even though the 70s, 80s and 90s are over, the fashions of these decades should not be. We pride ourselves on offering high-quality clothing at affordable prices, so that you can enjoy the grooviest, most bodacious fashions.</p>
-  
+
+
+	<!-- Bootstrap JS Script -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>

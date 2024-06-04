@@ -3,7 +3,7 @@ html {
   width: 100%;
 }
 body {
-  background:url(".../BackgroundPaper.jpeg");
+  background-image:url("../BackgroundPaper.jpeg");
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
@@ -11,7 +11,7 @@ body {
 
 .container_greeting, .container_carousel, .container_sales, .container_categories, .container_footer {
   width: 80%;
-  margin: 1rem auto; /* Corrected margin for centering */
+  margin: 1rem auto; 
 }
 
 .container_greeting {

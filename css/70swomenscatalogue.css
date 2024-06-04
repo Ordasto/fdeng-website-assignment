@@ -4,7 +4,7 @@
     margin-bottom: 10%;
 }
 
-﻿@import url(images/colour-palette.css);
+﻿@import url(colour-palette.css);
 
 .crr-btn-blue{
     background-color: var(--crr-blue);

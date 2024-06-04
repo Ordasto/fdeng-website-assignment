@@ -13,12 +13,14 @@
   .Payment-Info { grid-area: Payment-Info;
 
     grid-area: Payment-Info;
+	background-color: #fff; 
     
 }
   
   .Delivery-Address { 
    
   grid-area: Shipping-Info; 
+  background-color: #fff; 
   
   
 
@@ -27,6 +29,7 @@
   .Checkout { grid-area: Checkout; 
 
     grid-area: Checkout;
+	background-color: #fff; 
     
   
 
@@ -35,6 +38,7 @@
 .Shipment-Information { 
 	
 	grid-area: Shipment-Information;
+	background-color: #ffffff; 
 
    
     
@@ -43,6 +47,7 @@
 .Continue-Shopping{ 
 	
 	grid-area: Continue-Shopping; 
+	background-color: #fff; 
     
 
 }
@@ -71,12 +76,12 @@
 
 
 body {
-    background-color: #f7f7f7; 
+    background-image:url("../BackgroundPaper.jpeg");
+
+	 
+	
 }
 
-.container {
-    background-color: #fff; 
-}
 
 nav {
     background-color: #fff; 

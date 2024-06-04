@@ -1,0 +1,45 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.4fr 2.8fr 0.1fr;
+    gap: 0px 0px;
+    grid-template-areas:
+      "Header Header Header Header"
+      "Product-Image Product-Image Product-Description Product-Description"
+      ". . . .";
+  }
+  
+  .Header { grid-area: Header; }
+  
+  .Product-Image { grid-area: Product-Image;
+
+    width: 60%; /* or any desired width, e.g., 500px */
+    max-width: 800px; /* maximum width */
+    height: auto; /* maintains aspect ratio */
+    border: 1px solid black;
+}
+
+
+  
+  .Product-Description { grid-area: Product-Description;
+
+   border: 1px solid black;
+
+   text-align: center;
+   background-color: white; /* Example background color */
+}
+
+body {
+    background-image: url('Images/BackgroundPaper.jpeg'); /* Background color for the entire page */
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    margin-bottom: 10%;
+}
+
+.Product-Description button {
+
+    margin-bottom: 20%;
+}

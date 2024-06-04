@@ -4,4 +4,44 @@
     margin-bottom: 10%;
 }
 
+﻿@import url(images/colour-palette.css);
+
+.crr-btn-blue{
+    background-color: var(--crr-blue);
+    color: white;
+}
+
+.crr-btn-blue:hover{
+    background-color: var(--crr-blue);
+    color: white;
+}
+
+.crr-btn-blue:hover:active{
+    background-color: var(--crr-blue);
+    color: white;
+
+}
+
+/* Darkens button on hover */
+.hover-darken:hover {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+}
+
+
+.crr-font{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.crr-background{
+    background-color: #f8f6f6;
+    background-image: url(images/BackgroundPaper.jpeg);
+
+
+    /* These two lines lighten the image */
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    /* background-blend-mode: lighten; */
+}   
+
+
+
+
 

@@ -11,8 +11,9 @@
 
     <link href="../../css/navbar.css" rel="stylesheet">
     <link href="../../css/theme.css" rel="stylesheet">
+    <link href="../../css/max-utilities.css" rel = "stylesheet">
 </head>
-<body>
+<body class="crr-background crr-font d-flex flex-column min-vh-100">
     <header>
         <nav class="navbar navbar-expand-lg navbar-light border-bottom">
             <div class="container-fluid">
@@ -74,6 +75,68 @@
             </div>
         </nav>
     </header>
+
+    <div class = "TopPadding container text-center d-flex justify-content-center">
+        <h1 class = "w-25 bg-light rounded">
+            Your <br> Account
+        </h1>
+    </div>
+
+    <form>
+        <div class = "container bg-light rounded">
+            <div class = "form-group">
+                <label for="firstname">First name</label>
+                <input type="email" class="form-control" id="firstname" placeholder="Enter first name">
+                <label for="lastname">Last name</label>
+                <input type="email" class="form-control" id="lastname" placeholder="Enter last name">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter password">
+            </div>
+            <br>
+            <button type="submit" class="btn btn-primary mb-2">Update Information</button>
+        </div>
+    </form>
+    
+    <div class = "TopPadding container text-center d-flex justify-content-center">
+        <h1 class = "w-25 bg-light rounded">
+            Order <br> History
+        </h1>
+    </div>
+
+    <div class = "rounded TopPadding container text-center d-flex  bg-light">
+        <img src = "../../images/women_80s/item_2/image_1.webp" width = "20%" class= "img-fluid rounded border">
+        <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row">Date of Purchase:</th>
+                <td>03/06/24</td>
+              </tr>
+              <tr>
+                <th scope="row">Item:</th>
+                <td>High waist acid washed 80s jeans</td>
+              </tr>
+              <tr>
+                <th scope="row">Quantity:</th>
+                <td>1</td>
+              </tr>
+              <tr>
+                <th scope="row">Price:</th>
+                <td>£35</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
+    <footer class="  d-flex flex-wrap justify-content-between align-items-center py-3 px-4 border-top bg-light">
+        <p class="col-md-4 mb-0">© 2024 Cornish Retro Revival</p>
+        <ul class="nav col-md-4 justify-content-end">
+            <li class="nav-item"><a href="../about_us.html" class="nav-link px-2">About Us</a></li>
+            <li class="nav-item"><a href="../privacy_policy.html" class="nav-link px-2">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
 
      <!-- Bootstrap JS Script -->   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>

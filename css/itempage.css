@@ -1,7 +1,7 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 2.8fr 0.1fr;
+    grid-template-rows: auto auto auto;
     gap: 0px 0px;
     grid-template-areas:
       "Header Header Header Header"
@@ -30,7 +30,7 @@
 }
 
 body {
-    background-image: url('Images/BackgroundPaper.jpeg'); /* Background color for the entire page */
+    background-image: url('../BackgroundPaper.jpeg'); /* Background color for the entire page */
     margin: 0;
     padding: 0;
 }

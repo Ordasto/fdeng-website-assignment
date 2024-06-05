@@ -30,7 +30,7 @@
 }
 
 body {
-    background-image: url('Images/BackgroundPaper.jpeg'); /* Background color for the entire page */
+    background-image: url('../BackgroundPaper.jpeg'); /* Background color for the entire page */
     margin: 0;
     padding: 0;
 }

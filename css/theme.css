@@ -23,8 +23,9 @@
 
 
 .crr-font{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Helvetica, sans-serif;
 }
+
 .crr-background{
     background-color: #f8f6f6;
     background-image: url(../BackgroundPaper.jpeg);
